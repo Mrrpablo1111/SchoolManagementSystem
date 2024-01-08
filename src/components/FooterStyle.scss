@@ -1,0 +1,21 @@
+@import "./../styles/variables.scss";
+@import "./../styles/index.scss";
+
+.footer {
+    background: $dark;
+    .secionContainer{
+        gap: 2.5rem;
+        .gridOne {
+            gap: 1rem;
+            justify-content: center;
+            margin: auto;
+        }
+    }
+
+    .logoDiv {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: $light;
+    }
+}
