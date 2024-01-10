@@ -27,3 +27,37 @@ $headerHeight: 100px;
         }
     }
 }
+
+//media screen style
+@media screen and (min-width: 480px){
+    .footer{
+        .sectionContainer{
+            align-items: center;
+            grid-template-columns: repeat(2,1fr);
+            .footerLinks{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 570px){
+    .footer{
+        .sectionContainer{
+            padding-top: 2rem;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+@media screen and (min-width: 680px){
+    .footer{
+        .sectionContainer{
+            
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+
+
+

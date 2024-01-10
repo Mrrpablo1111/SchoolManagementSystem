@@ -1,5 +1,6 @@
 
 @import "./variables.scss";
+
 * {
     box-sizing: border-box;
     margin:0;
@@ -16,6 +17,7 @@ a {
 li {
     list-style: none;
     cursor: pointer;
+    color: $light;
 }
 
 .section {
@@ -27,6 +29,7 @@ li {
 }
 
 .icon{
+    
     font-size: 1.4rem;
     cursor: pointer;
 }
@@ -60,4 +63,8 @@ p {
 
 #root {
     height: 100%;
+}
+.footerDiv{
+    position: absolute;
+    bottom: 0;
 }

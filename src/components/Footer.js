@@ -1,4 +1,5 @@
 import React from 'react'
+import './../styles/index.scss'
 import './FooterStyle.scss'
 import {TiSocialFacebook, TiSocialGithub, TiSocialLinkedin} from 'react-icons/ti'
 const Footer = () => {
@@ -54,16 +55,16 @@ const Footer = () => {
             <div className='footerLinks'>
                 <span className='linkTitle'>Information For</span>
                 <li>
-                    <a href=''>Prospective undergraduates</a>
+                    <a href=''>Prospective </a>
                 </li>
                 <li>
-                    <a href=''>Prospective graduate students</a>
+                    <a href=''>Prospective </a>
                 </li>
                 <li>
-                    <a href=''>Businesses/Partnerships</a>
+                    <a href=''>Businesses</a>
                 </li>
                 <li>
-                    <a href=''>Prospective online/distance learning students</a>
+                    <a href=''>Prospective online</a>
                 </li>
             
             </div>
@@ -73,7 +74,7 @@ const Footer = () => {
         <div className='copyRightDiv flex'>
             <p>
                 Courtesy Design | Developed by
-                <a href='kmengtoch@gmail.com'> kmengtoch</a>
+                <a href='https://www.facebook.com/profile.php?id=100089003408624'> kmengtoch</a>
             </p>
         </div>
     </div>

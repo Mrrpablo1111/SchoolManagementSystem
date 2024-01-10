@@ -2,20 +2,80 @@
 @import "./../styles/index.scss";
 
 .footer {
-    background: $dark;
-    .secionContainer{
+    background: grey;
+    .sectionContainer{
         gap: 2.5rem;
         .gridOne {
             gap: 1rem;
             justify-content: center;
             margin: auto;
         }
-    }
-
-    .logoDiv {
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-decoration: none;
+        .logoDiv {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: $dark;
+    
+            
+        }
+        .div, p{
         color: $light;
     }
+    .socialIcons{
+        margin-top: 1rem;
+        gap: 1rem;
+        .icon{
+            height: 50px;
+            width: 30px;
+            border-radius: 10rem;
+            border: 1px solid $light;
+            box-shadow: $boxShadow;
+            padding: 0.4rem;
+            color: $light;
+            &:hover {
+                background: $light;
+                transform: translateY(-10px);
+                transition: $dark;
+                border: 1px solid $light;
+                color: $light;
+             }
+         }
+         
+     }
+
+     .footerLinks {
+        display: grid;
+        .linkTitle{
+            color: $dark;
+            font-weight: 600;
+            display: block;
+            padding-bottom: 1rem;
+        }
+        li a{
+            display: block;
+            color: $light;
+            transition: $light;
+            padding: 0.3rem 0;
+
+            &:hover {
+             transform: translateX(10px);
+             color: $dark;
+            }
+        }
+     }
+     
+    }
+    
+    .copyRightDiv {
+        justify-content: center;
+        color: $light;
+        margin-top: 1.5rem;
+        padding: 1rem;
+        gap: 1rem;
+        border-top: 1px solid $light;
+        text-align: center;
+     }
+     
+     
+    
 }
